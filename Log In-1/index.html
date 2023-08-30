@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Log In/Log In-1/style.css"> <!--The codes of font type and icons-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Poppins&family=REM:ital,wght@0,200;0,300;1,400&family=Roboto&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="/Log In/Log In-1/log-in-icon-1.jpg"> <!--The short icon-->
+    <title>Log In</title>
+</head>
+<body>
+        <form>
+            <div class="header">
+                <h1>Log In</h1>
+            </div>
+            <div class="email">
+                <p class="firstline">E-mail</p>
+                <i class="fa-regular fa-envelope" id="emailicon"></i><input type="email" id="email" placeholder="Enter your e-mail" required>
+            </div>
+            <div class="password">
+                <p class="secondline">Password</p>
+                <i class="fa-solid fa-lock" id="passwordicon"></i><input type="password" id="password" placeholder="Enter your password" minlength="8" maxlength="16" required>
+                <i class="fa-regular fa-eye" id="showbutton" onclick="showPass()"></i>
+                <a href="https://www.youtube.com/">Forgot password ?</a>
+            </div>
+            <div class="button">
+                <button id="login">Log In</button>
+                <button id="signup">Sign Up</button>
+            </div>
+            <div class="text"><p id="text">Sign up with</p></div>
+            <div class="icons">
+                <a href="https://www.facebook.com/" class="socialmedia" id="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" class="socialmedia" id="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/?logout=1693318011921" class="socialmedia" id="twitter"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </form>
+        <script src="/Log In/Log In-1/app.js"></script>
+</body>
+</html>
